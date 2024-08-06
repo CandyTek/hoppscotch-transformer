@@ -1,17 +1,14 @@
 # hoppscotch-transformer
 
-[![English badge](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-English-blue)](./README.md)
-[![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](./README_CN.md)
-
 <br>
 
 ## Hoppscotch to Postman
 
-> Export Hoppscotch data json file
+> Export [Hoppscotch](https://hoppscotch.io/) data json file
 >
 > Drag the file into the html tool in the project and click to download the output file
 >
-> Open Postman to import the downloaded json file
+> Open [Postman](https://web.postman.co/) to import the downloaded json file
 
 <br>
 <br>
@@ -19,27 +16,46 @@
 
 ## Hoppscotch to Apifox
 
-> Export Hoppscotch data json file
+> Export [Hoppscotch](https://hoppscotch.io/) data json file
 >
 > Drag the file into the html tool in the project and click to download the output file
 >
-> Open Postman to import the downloaded json file
+> Open [Postman](https://web.postman.co/) to import the downloaded json file
 >
 > Export the data in Postman as a json file of version v2.1
 >
-> Open Apifox > Settings > Import > Postman to import the json file just now
+> Open [Apifox](https://app.apifox.com/main/)``` > Settings > Import Data > Postman``` to import the json file just now
 
 <br>
 <br>
 ​
 
-## Postman To Hoppscotch
+## Hoppscotch to OtherTool
 
-> An older version of Postman software is required, such as 7.24.0
+> Export [Hoppscotch](https://hoppscotch.io/) data json file
 >
-> Export v1 version of the data json file
+> Drag the file into the html tool in the project and click to download the output file
 >
-> Open Hoppscotch to import the json file just now
+> Open [Postman](https://web.postman.co/) to import the downloaded json file
+>
+> Export the data in Postman as a json file of version v2.1
+>
+> Open [Apifox](https://app.apifox.com/main/)``` > Settings > Import Data > Postman``` to import the json file just now
+>
+> Open ```Apifox > Settings > Export Data``` to export version you want or export a version that is more compatible with OpenApi
+
+<br>
+<br>
+
+
+## OtherTool To Hoppscotch
+
+> Hoppscotch import supports a small number of data formats
+>
+> If you need more supported formats, you can use the [online tool Apifox](https://app.apifox.com/main/) for secondary conversion. First import the data into the Apifox tool, then export it to OpenApi format, and then import it into [Hoppscotch](https://hoppscotch.io/)
+
+![other_api_tool](https://github.com/user-attachments/assets/1399d153-5f5b-4c35-92bd-95ae7bc5018e)
+
 <br>
 <br>
 ​
